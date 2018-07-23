@@ -1,0 +1,16 @@
+{
+    "name": "Test Assignment",
+    "description": "Test Assignment",
+    "license": "test",
+  "require": {
+    "php": "^7.1",
+    "phpunit/phpunit":"^7",
+    "phpunit/php-invoker":"^7",
+    "doctrine/doctrine-bundle": "^1.6"
+  },
+    "autoload": {
+      "psr-4": {
+        "Common\\": "sources/"
+      }
+    }
+}
